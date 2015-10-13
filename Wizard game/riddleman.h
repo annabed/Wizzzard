@@ -1,0 +1,4 @@
+class RiddleMan : public Opponent
+{
+
+};

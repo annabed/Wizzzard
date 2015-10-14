@@ -9,13 +9,18 @@ using namespace std;
 #include "wizard.h"
 #include "areyoulucky.h"
 #include "game.h"
+//#include "person.cpp"
+//#include "opponent.cpp"
+//#include "riddleman.cpp"
+//#include "wizard.cpp"
+//#include "areyoulucky.cpp"
+//#include "game.cpp"
+//#include "multiriddleman.cpp"
 
 int main()
 {
     srand( time( NULL ) );
-    Game game;
-
-    Opponent op("Zdzis", "piwo");
-    cout << op.get_person_name() << "\n" << op.get_opponent_item() << endl;
+    Game * a = Game::get_instance();
+    a->play();
     return 0;
 }

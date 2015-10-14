@@ -8,3 +8,18 @@ Just beside the entrance sits an old guy, a wise man.
 "I will not give you back your wallet if you don't do it correctly."
 
 "So let's start:"
+===
+"wallet"
+===
+"I"
+am
+"You"
+are
+"He/she/it"
+is
+"We"
+are
+"You"
+are
+"They"
+are

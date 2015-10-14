@@ -1,0 +1,23 @@
+After your long walk, surprisingly you see a little girl.
+A lonely little girl in the forest. Strange situation.
+You should be more careful, but you really want this journey to finish.
+
+"Good morning.", she said.
+"My mommie gave me this bag and forced to sit here and wait for someone.
+Do you, by any chance, know whom does this bag belong to?
+It's cold and dark in here and I want to go home."
+
+Of course it was your bag.
+
+"But mum asked me to play a game with you.
+I will pick a number from 1 to 6 and you have to guess correct number.
+You are correct - you get your belonging back.
+You are wrong - you go away with nothing.
+
+Give me a minute...
+Ok, I have a number in my mind.
+Guess it!"
+
+Type a number from 1 to 6 in order to get your belonging.
+===
+bag

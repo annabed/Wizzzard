@@ -13,3 +13,7 @@ You don't really have choice.
 "So tell me what is the solution of this: 6:3*(1+2)!"
 
 Take your time and type your answer.
+===
+"knife"
+===
+"720"

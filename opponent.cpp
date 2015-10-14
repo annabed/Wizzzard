@@ -1,5 +1,6 @@
-#include <iostream>
+#include <fstream>
 #include "opponent.h"
+
 using namespace std;
 
 Opponent::Opponent(string n, string f) : Person(n)
@@ -14,7 +15,7 @@ string Opponent::get_opponent_item()
 
 Opponent::~Opponent(){}
 
-void Opponent::combat()
+void Opponent::combat(Wizard *wizard)
 {
     ifstream file(file);
     string line;
@@ -26,8 +27,9 @@ void Opponent::combat()
                 cout << line << endl;
             else
             {
-                string item = getline(file,line);
-                wizard.set_item(item);
+                string item;
+                getline(file,item);
+                wizard->set_item(item);
             }
         }
         file.close();

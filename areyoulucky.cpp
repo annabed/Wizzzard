@@ -1,6 +1,6 @@
-#include <iostream>
 #include "areyoulucky.h"
-#include <ctime>
+#include <fstream>
+
 using namespace std;
 
 AreYouLucky::AreYouLucky(string n, string f) : Opponent(n, f)
@@ -10,7 +10,7 @@ AreYouLucky::AreYouLucky(string n, string f) : Opponent(n, f)
 
 AreYouLucky::~AreYouLucky(){}
 
-void AreYouLucky::combat()
+void AreYouLucky::combat(Wizard *wizard)
 {
     ifstream file(file);
     string line;
@@ -22,7 +22,8 @@ void AreYouLucky::combat()
                 cout << line << endl;
             else
             {
-                string item = getline(file,line);
+                string item;
+                getline(file,item);
                 int answear;
                 int guess;
                 cin >> guess;
@@ -31,7 +32,7 @@ void AreYouLucky::combat()
                 else
                 {
                     if(guess == number)
-                        wizard.set_item(item);
+                        wizard->set_item(item);
                     else
                         cout << "Try again" << endl;
                 }
